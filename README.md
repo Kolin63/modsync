@@ -7,7 +7,8 @@ using custom Minecraft Modpacks easier.
 ## 📦 Installation
 Run this script
 ```bash
-wget https://blahblah -O $HOME/.local/bin/modsync
+wget https://github.com/Kolin63/modsync/releases/download/1.0.0/modsync -O $HOME/.local/bin/modsync
+chmod +x $HOME/.local/bin/modsync
 ```
 
 ## 🚀 Usage
