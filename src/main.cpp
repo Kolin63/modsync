@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
     else if (line == "") continue;
     else {
       if (mode == line_mode || line_mode == Mode::both) {
-        int err{system(std::string{"wget " + line}.c_str())};
+        int err{system(std::string{"wget -N " + line}.c_str())};
         if (err != 0) return err;
       }
     }
